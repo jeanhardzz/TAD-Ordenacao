@@ -7,6 +7,10 @@ Implementação de todos os métodos de pesquisa que aprendi em C++.
 ## Inserção
 * É estável
 * Complexidade
+
     C(n)
+
         Melhor Caso: O(n)
+
         Pior Caso: O(n²)
+        
