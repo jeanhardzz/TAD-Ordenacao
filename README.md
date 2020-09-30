@@ -2,7 +2,7 @@
 Implementação de todos os métodos de pesquisa que aprendi em C++.
 
 **Estabilidade**
-Método é estável se a ordem relativa dos registros com a mesma chave não se altera após a ordenação.
+* Método é estável se a ordem relativa dos registros com a mesma chave não se altera após a ordenação.
 
 **Adaptabilidade**
 * Sequência de operações executadas conforme a entrada.
