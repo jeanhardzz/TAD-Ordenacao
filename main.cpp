@@ -1,18 +1,16 @@
 #include <iostream>
 
 #include "src/bolha/bolha.h"
+#include "src/selecao/selecao.h"
+#include "src/insercao/insercao.h"
 #include "src/tipoitem.h"
 
 int main(){
     TipoItem v[20];
     int i; 
 
-    for(i=0;i<10;i++){
-        v[i]=i;
-    }
-
-    for(i=10;i<20;i++){
-        v[i]=20-i;
+    for(i=0;i<20;i++){
+        v[i]=rand()%100;
     }
     
     for(i=0;i<20;i++){
@@ -20,7 +18,14 @@ int main(){
     }
 
     Bolha bolha;
-    bolha.Ordena(v,20);
+    //bolha.Ordena(v,20);
+
+    Selecao selecao;
+    //selecao.Ordena(v,20);
+
+    Insercao insercao;
+    insercao.Ordena(v,20);
+
 
     std::cout<<"\nOrdenado: \n";
     for(i=0;i<20;i++){
