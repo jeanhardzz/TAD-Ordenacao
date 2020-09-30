@@ -10,7 +10,7 @@
 # e eh chamada atraves do comando $(VAR)
 
 CC=g++ # compilador, troque para gcc se preferir utilizar C
-TARGET=Bolha/bolha.cpp tipoitem.cpp main.cpp
+TARGET=src/bolha/bolha.cpp src/tipoitem.cpp main.cpp
 CFLAGS=-Wall -Wextra # compiler flags, troque o que quiser, exceto bibliotecas externas
 EXEC=./main # nome do executavel que sera gerado, nao troque
 TMPOUT=main.testresult

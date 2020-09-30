@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Bolha/bolha.h"
-#include "tipoitem.h"
+#include "src/bolha/bolha.h"
+#include "src/tipoitem.h"
 
 int main(){
     TipoItem v[20];
