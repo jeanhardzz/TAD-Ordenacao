@@ -8,8 +8,7 @@ Implementação de todos os métodos de pesquisa que aprendi em C++.
 * É estável
 * Complexidade
     
-    C(n)
+* * C(n)
 
-        * Melhor Caso: O(n)
-
-        * Pior Caso: O(n²)
+* * * Melhor Caso: O(n)
+* * * Pior Caso: O(n²)
