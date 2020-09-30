@@ -1,10 +1,17 @@
 # TAD-Pesquisa
 Implementação de todos os métodos de pesquisa que aprendi em C++.
-
+* **Estabilidade**
+Método é estável se a ordem relativa dos registros com a mesma chave não se altera após a ordenação.
 # Métodos Simples
 ## Bolha
 ## Seleção
 ## Inserção
+* **Vantagens**
+    * É o método a ser utilizado quando o arquivo está “quase” ordenado.
+    * É um bom método quando se deseja adicionar uns poucos itens a um arquivo ordenado, pois o custo é linear.
+    * O algoritmo de ordenação por inserção é estável.
+* **Desvantagens**
+    * Alto custo de movimentação de elementos no vetor.
 * É estável
 * Complexidade    
     * C(n)
@@ -30,11 +37,6 @@ void Insercao(Item *v, Indice n){
     }
 }
 ```
-* **Vantagens**
-    * É o método a ser utilizado quando o arquivo está “quase” ordenado.
-    * É um bom método quando se deseja adicionar uns poucos itens a um arquivo ordenado, pois o custo é linear.
-    * O algoritmo de ordenação por inserção é estável.
-* **Desvantagens**
-    * Alto custo de movimentação de elementos no vetor.
+
 
 
