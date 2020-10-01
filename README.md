@@ -28,10 +28,28 @@ Implementação de todos os métodos de pesquisa que aprendi em C++.
     * Melhor Caso: O(1)
     * Pior Caso: O(n²)
 
+**Opção de melhoria**
+```
+void Bolha (Item *v, int n) {
+    int i, j, trocou;
+    for(i = 0; i < n-1; i++){
+    trocou = 0;
+    for(j = 1; j < n-i; j++){
+        if (v[j].GetChave() < v[j-1].GetChave()){
+            Troca(v[j-1], v[j]);
+            trocou = 1;
+        }
+    }
+    if (!trocou) break;
+    }
+}
+```
+
 ## Seleção
 
 **Vantagens**
 * Custo linear no tamanho da entrada para o número de movimentos de registros – a ser utilizado quando há registros muito grandes.
+
 **Desvantagens**
 * Não adaptável (não importa se o arquivo está parcialmente ordenado).
 * Algoritmo não é estável.
