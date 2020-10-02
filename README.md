@@ -97,5 +97,34 @@ void Insercao(Item *v, Indice n){
 }
 ```
 
+# Métodos Eficientes
+
+## Quicksort
+
+**Vantagens**
+* É extremamente eficiente para ordenar arquivos de dados.
+* Necessita de apenas uma pequena pilha como memória auxiliar.
+* Requer cerca de n log n comparações em média para ordenar n itens.
+
+**Desvantagens**
+* Tem um pior caso O(n²) comparações.
+* Sua implementação é muito delicada e difícil:
+* Um pequeno engano pode levar a efeitos inesperados para algumas entradas de dados.
+* O método não é estável.
+
+**Complexidade**
+* C(n)
+    * Melhor Caso: O(n.logn)
+    * Médio Caso: O(n.logn)
+    * Pior Caso: O(n²)
+
+**Melhorias**
+* Escolha do pivô: mediana de três.
+* Utilizar um algoritmo simples (seleção,inserção) para partições de tamanho pequeno.
+* Quicksort não recursivo.
+
+
+
+
 
 

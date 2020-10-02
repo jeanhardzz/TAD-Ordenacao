@@ -4,7 +4,7 @@ QuickSort::QuickSort(){
 
 }
 
-void QuickSort::Ordena(TipoItem v[20],int n){
+void QuickSort::OrdenaRecursivo(TipoItem v[20],int n){
     Recursivo(0,n-1,v);
 }
 

@@ -28,7 +28,7 @@ int main(){
     //insercao.Ordena(v,20);
 
     QuickSort quicksort;
-    quicksort.Ordena(v,20);
+    quicksort.OrdenaRecursivo(v,20);
 
 
     std::cout<<"\nOrdenado: \n";
