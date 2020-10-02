@@ -3,6 +3,7 @@
 #include "src/bolha/bolha.h"
 #include "src/selecao/selecao.h"
 #include "src/insercao/insercao.h"
+#include "src/Quicksort/quicksort.h"
 #include "src/tipoitem.h"
 
 int main(){
@@ -24,7 +25,10 @@ int main(){
     //selecao.Ordena(v,20);
 
     Insercao insercao;
-    insercao.Ordena(v,20);
+    //insercao.Ordena(v,20);
+
+    QuickSort quicksort;
+    quicksort.Ordena(v,20);
 
 
     std::cout<<"\nOrdenado: \n";
