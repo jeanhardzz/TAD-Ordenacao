@@ -10,7 +10,7 @@
 # e eh chamada atraves do comando $(VAR)
 
 CC=g++ # compilador, troque para gcc se preferir utilizar C
-TARGET=src/Bolha/bolha.cpp src/Selecao/selecao.cpp src/Insercao/insercao.cpp src/Quicksort/quicksort.cpp src/tipoitem.cpp main.cpp
+TARGET=src/Bolha/bolha.cpp src/Selecao/selecao.cpp src/Insercao/insercao.cpp src/Quicksort/quicksort.cpp src/tipoitem.cpp src/Quicksort/Pilhas/pilha-arranjo.cpp main.cpp
 CFLAGS=-Wall -Wextra # compiler flags, troque o que quiser, exceto bibliotecas externas
 EXEC=./main # nome do executavel que sera gerado, nao troque
 TMPOUT=main.testresult

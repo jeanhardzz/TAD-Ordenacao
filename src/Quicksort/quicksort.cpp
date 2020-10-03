@@ -1,5 +1,5 @@
 #include "quicksort.h"
-
+#include "Pilhas/pilha-arranjo.h"
 QuickSort::QuickSort(){
 
 }
