@@ -7,8 +7,9 @@
 #include "src/tipoitem.h"
 
 int main(){
+
     TipoItem v[20];
-    int i; 
+    int i;      
 
     for(i=0;i<20;i++){
         v[i]=rand()%100;

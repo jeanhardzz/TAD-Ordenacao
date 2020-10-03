@@ -4,7 +4,7 @@
 #include "../tipoitem.h"
 
 class QuickSort {
-    private:
+    private:    
     public:
         QuickSort();
         void OrdenaRecursivo(TipoItem v[20],int n);
