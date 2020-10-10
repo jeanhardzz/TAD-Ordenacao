@@ -37,5 +37,13 @@ int main(){
         std::cout<<v[i].GetChave()<<", ";
     }
 
+    int q[1]={1};
+    int* t[1]={&q[0]};
+
+    *t[0]=0;
+    std::cout<<q[0]<<*t[0];
+
+
+
     return 0;
 }
