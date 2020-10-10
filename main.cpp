@@ -33,7 +33,8 @@ int main(){
     //quicksort.OrdenaRecursivo(v,20);
 
     Heapsort heapsort;
-    heapsort.Constroi(v,20);
+    int n=20;
+    heapsort.Ordena(v,n);
 
 
 

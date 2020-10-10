@@ -4,9 +4,24 @@
 Heapsort::Heapsort(){
 
 }
-void Heapsort::Constroi(TipoItem v[20],int n){
-    int Esq;
+
+void Heapsort::Ordena(TipoItem v[20],int n){
     n--;
+    int esq, dir;
+    TipoItem x;
+    Constroi(v, n); /* constroi o heap */
+    esq = 0; dir = n;
+    while (dir > 0){ /* ordena o vetor */
+        x = v[0];
+        v[0] = v[dir];
+        v[dir] = x;
+        dir--;
+        Refaz(esq, dir, v);
+    }
+}
+
+void Heapsort::Constroi(TipoItem v[20],int n){
+    int Esq;    
     Esq = n / 2 + 1;
     while (Esq > 0) {
         Esq--;
