@@ -4,6 +4,7 @@
 #include "src/selecao/selecao.h"
 #include "src/insercao/insercao.h"
 #include "src/Quicksort/quicksort.h"
+#include "src/Heapsort/heapsort.h"
 #include "src/tipoitem.h"
 
 int main(){
@@ -29,19 +30,18 @@ int main(){
     //insercao.Ordena(v,20);
 
     QuickSort quicksort;
-    quicksort.OrdenaRecursivo(v,20);
+    //quicksort.OrdenaRecursivo(v,20);
+
+    Heapsort heapsort;
+    heapsort.Constroi(v,20);
+
+
 
 
     std::cout<<"\nOrdenado: \n";
     for(i=0;i<20;i++){
         std::cout<<v[i].GetChave()<<", ";
-    }
-
-    int q[1]={1};
-    int* t[1]={&q[0]};
-
-    *t[0]=0;
-    std::cout<<q[0]<<*t[0];
+    }   
 
 
 
