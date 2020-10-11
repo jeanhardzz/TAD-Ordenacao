@@ -123,6 +123,25 @@ void Insercao(Item *v, Indice n){
 * Utilizar um algoritmo simples (seleção,inserção) para partições de tamanho pequeno.
 * Quicksort não recursivo.
 
+## HeapSort
+
+**Vantagens**
+* O comportamento do Heapsort é sempre O(n log n), qualquer que seja a entrada.
+
+**Desvantagens**
+* O anel interno do algoritmo é bastante complexo se comparado com o do Quicksort.
+* O Heapsort não é estável.
+* O método não é estável.
+
+**Recomendado**
+* Para aplicações que não podem tolerar eventualmente um caso desfavorável.
+* Não é recomendado para arquivos com poucos registros, por causa do tempo necessário para construir o heap.
+
+**Complexidade**
+* C(n)
+    * Sempre O(nlogn)
+
+
 
 
 
